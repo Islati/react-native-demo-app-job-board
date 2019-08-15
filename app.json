@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "ddigital-prototype",
+    "description": "Demo of Application Prototype",
+    "slug": "ddigital-prototype",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "scheme": "exp9289ba0349914947adef54508fb4d89c",
+    "android": {
+      "package": "com.doverdigital.jobapp",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    }
+  }
+}
